@@ -1,0 +1,8 @@
+Requires 'serial' lib (Included)
+
+To set device baud rate, refer to ELM 327 datasheet.
+
+Example: To set 115kbps:
+> at pp 0c sv 23 
+> at pp 0c on
+> atz
